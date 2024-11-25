@@ -31,6 +31,8 @@ To begin using the project, you need to prepare the data. The dataset used here 
 - Mary Cassatt
 - Gustave Caillebot
 
+![Training Paintings](others/trainimages.png)
+
 To download and preprocess the dataset, run the following notebook: **data/impressionism_data.ipynb**.
 
 This notebook will automatically download the selected paintings by the above-listed artists for future training.
