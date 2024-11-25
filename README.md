@@ -5,11 +5,11 @@ Introduction to Probabilistic Graphical Models and Deep Generative Models Course
 
 This project focuses on the implementation of **Denoising Diffusion Probabilistic Models (DDPM)** as described in *Ho et al.* (2020). The goal was to implement the training and sampling processes of the DDPM model, optimizing it using **Hugging Face's Diffusers** library, and apply it to a new dataset of **impressionist paintings**. 
 
-The dataset used for training consists of 2287 paintings from the **WikiArt** collection, specifically focusing on impressionist artworks from renowned artists.
+We successfully implemented the DDPM model as outlined in *Ho et al. (2020)*, which is one of the seminal works in the field of diffusion models. This paper laid the groundwork for many advancements, including improvements in sampling efficiency, conditioning, multi-task learning, and reducing the computational costs associated with diffusion models.
 
 ![Impressionist Paintings](others/output.png)
 
-We successfully implemented the DDPM model as outlined in *Ho et al. (2020)*, which is one of the seminal works in the field of diffusion models. This paper laid the groundwork for many advancements, including improvements in sampling efficiency, conditioning, multi-task learning, and reducing the computational costs associated with diffusion models.
+The dataset used for training consists of 2287 paintings from the **WikiArt** collection, specifically focusing on impressionist artworks from renowned artists.
 
 The implementation follows the parameters from the article, with optimizations using **Hugging Face's Diffusers** library, which significantly simplified the process of training and inference for diffusion-based models.
 
