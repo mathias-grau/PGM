@@ -1,0 +1,6 @@
+accelerate==1.1.1
+datasets==3.0.2
+diffusers==0.31.0
+tqdm==4.66.6
+torch==1.9.0
+torchvision==0.10.0
