@@ -42,6 +42,7 @@ This notebook will automatically download the selected paintings by the above-li
 Once the data is prepared, you can proceed with training and sampling. The main scripts for training and generating samples are already implemented. Refer to the following files to run the project:
 
 - **diffusion_impressionism.ipynb** - for training the DDPM model and generate new samples
+- **generate.ipynb** - for generating new samples from a pretrained model
 
 Make sure to adjust the training parameters as needed, based on your available hardware and specific requirements. Especially : 
 - `config.image_size`
