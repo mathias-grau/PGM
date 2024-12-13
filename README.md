@@ -15,6 +15,9 @@ The implementation follows the parameters from the article, with optimizations u
 
 ![Denoising Diffusion Process](others/denoisingsmall.png)
 
+## Training Improvement
+
+We implemented the **Immiscible Diffusion** paper by Yiheng Li et al. to accelerate the training process assigning the noise to the images based on the smallest distance between the randomly generated noise and the training images in each batch.
 
 ## Mixture of images
 
@@ -96,5 +99,16 @@ If you use this code or model in your work, please cite the following papers:
   url          = {https://www.wikiart.org/},
   note         = {Accessed: 2024-11-25},
 }
+
+@misc{li2024immisciblediffusionacceleratingdiffusion,
+      title={Immiscible Diffusion: Accelerating Diffusion Training with Noise Assignment}, 
+      author={Yiheng Li and Heyang Jiang and Akio Kodaira and Masayoshi Tomizuka and Kurt Keutzer and Chenfeng Xu},
+      year={2024},
+      eprint={2406.12303},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2406.12303}, 
+}
+
 ```
 
