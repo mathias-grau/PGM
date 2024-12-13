@@ -15,6 +15,15 @@ The implementation follows the parameters from the article, with optimizations u
 
 ![Denoising Diffusion Process](others/denoisingsmall.png)
 
+
+## Mixture of images
+
+We also implemented a new diffusion class where you can mix 2 images and recreate a new one starting from a mix of the noisy versions of the first initial images :
+
+
+![Mixed Diffusion Process](others/mixed_images_annotated.png)
+
+
 ## Getting Started
 
 ### Data Preparation
